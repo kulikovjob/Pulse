@@ -20,6 +20,16 @@
 .button { width: 153px; height: 32px; background-color: #C70101; border-radius: 5px; border: none; color: #ffffff; text-align: center; font-size: 12px; font-weight: 500; text-transform: uppercase; }
 .button_main { margin-top: 67px; width: 300px; height: 50px; font-size: 16px; }
 
+.advantages { min-height: 370px; padding: 73px 0 65px 0; background-color: #f6f6f6; }
+.advantages__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 94px; }
+.advantages__item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; max-width: 238px; }
+.advantages__subtitle { margin-top: 30px; color: #0D0D0D; text-align: center; font-size: 18px; font-weight: 700; }
+.advantages__descr { margin-top: 20px; color: #0D0D0D; text-align: center; font-size: 14px; font-weight: 300; }
+.advantages__descr a { color: #C70101; font-size: 14px; text-transform: uppercase; font-weight: 300; -webkit-text-decoration-line: underline; text-decoration-line: underline; }
+
+.title { color: #0D0D0D; font-size: 30px; font-weight: 700; text-align: center; text-transform: uppercase; }
+.title_left { color: #ffffff; font-size: 36px; text-align: left; }
+
 * { font-family: "Museo Sans Cyrl", sans-serif; }
 
 .container { max-width: 950px; margin: 0 auto; }
